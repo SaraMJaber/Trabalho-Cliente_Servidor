@@ -1,0 +1,61 @@
+# =========================
+# JAVA
+# =========================
+
+# Arquivos compilados
+*.class
+
+# Arquivos compactados gerados
+*.jar
+*.war
+*.ear
+
+# Diretórios de build
+bin/
+build/
+out/
+target/
+
+# Logs
+*.log
+
+# =========================
+# PYTHON
+# =========================
+
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual
+venv/
+.env/
+.env.*
+
+# =========================
+# IDEs
+# =========================
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+
+# =========================
+# SISTEMA OPERACIONAL
+# =========================
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
