@@ -86,15 +86,7 @@ Caso a senha esteja correta, a comunicação é permitida.
 
 Caso contrário, a conexão é encerrada.
 
-A senha é transmitida em texto simples, sem qualquer mecanismo de criptografia ou hash. Portanto, trata-se de uma implementação adequada apenas para fins acadêmicos.
-
-Em um ambiente de produção, seriam recomendadas práticas como:
-
-Utilização de hash de senha (por exemplo, SHA-256).
-
-Implementação de SSL/TLS para comunicação segura.
-
-Uso de criptografia simétrica ou assimétrica.
+A senha é transmitida em texto simples, sem qualquer mecanismo de criptografia ou hash. 
 
 
 
@@ -144,18 +136,3 @@ Após autenticação bem-sucedida, inicia-se a troca de mensagens.
 
 A comunicação permanece ativa até que uma das partes encerre a conexão.
 
-
-
-7. Objetivo Acadêmico
-
-Este projeto foi desenvolvido com finalidade educacional, com o objetivo de consolidar conhecimentos sobre:
-
-Arquitetura Cliente-Servidor
-
-Comunicação em redes utilizando sockets
-
-Protocolo TCP
-
-Autenticação básica
-
-Integração entre linguagens distintas (Java e Python)
